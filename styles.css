@@ -215,54 +215,47 @@ h3 {
   margin: 5px;
 }
 
-.cardSkill {
-  opacity: 100%;
-  padding: 1%;
+.titleSkill{
+  padding-top: 5px;
 }
 
-.topicwd{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 390) - 390)*100));
-  translate: calc(1% * max(-410 + var(--scrollTotalHeight), -87))
+#topicwd{
+  translate: calc(1% * max(-30 + (var(--topicwd)/15), -100))
 }
 
-.topicvsc{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 440) - 440)*100));
-  translate: calc(-1% * max(-450 + var(--scrollTotalHeight), -85))
+#topicvcs{
+  translate: calc(-1% * max(-30 + (var(--topicvcs)/15), -100))
 }
 
-.topicsd{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 485) - 485)*100));
-  translate: calc(1% * max(-495 + var(--scrollTotalHeight), -85))
+#topicsd{
+  translate: calc(1% * max(-30 + (var(--topicsd)/15), -100))
 }
 
-.topicrd{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 528) - 528)*100));
-  translate: calc(-1% * max(-537 + var(--scrollTotalHeight), -85))
+#topicrd{
+  translate: calc(-1% * max(-30 + (var(--topicrd)/15), -100))
 }
 
-.topicba{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 571) - 571)*100));
-  translate: calc(1% * max(-580 + var(--scrollTotalHeight), -85))
+#topicba{
+  translate: calc(1% * max(-30 + (var(--topicba)/15), -100))
 }
 
-.topictf{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 614) - 614)*100));
-  translate: calc(-1% * max(-623 + var(--scrollTotalHeight), -85))
+#topictf{
+  translate: calc(-1% * max(-30 + (var(--topictf)/15), -100))
 }
 
-.topicwm{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 658) - 658)*100));
-  translate: calc(1% * max(-690 + var(--scrollTotalHeight), -85))
+#topicwm{
+  translate: calc(1% * max(-28 + (var(--topicwm)/15), -100))
 }
 
-.topic3m{
-  background-color: rgb(194, 194, 194, calc(1% * (max(var(--scrollTotalHeight), 675) - 675)*100));
-  translate: calc(-1% * max(-690 + var(--scrollTotalHeight), -85))
+#topic3m{
+  translate: calc(-1% * max(-50 + (var(--topic3m)/15), -100))
 }
 
 .separator{
   border: none;
   border-top: 1px solid #000;
+  padding-bottom: 50px;
+  margin: 30px;
 }
 
 .first-main-section {
@@ -273,8 +266,40 @@ h3 {
   padding-top: 15vh;
 }
 
-
-
+@media (max-height: 800px) {
+  #topicwd{
+    translate: 0%;
+  }
+  
+  #topicvcs{
+    translate: 0%;
+  }
+  
+  #topicsd{
+    translate: 0%;
+  }
+  
+  #topicrd{
+    translate: 0%;
+  }
+  
+  #topicba{
+    translate: 0%;
+  }
+  
+  #topictf{
+    translate: 0%;
+  }
+  
+  #topicwm{
+    translate: 0%;
+  }
+  
+  #topic3m{
+    translate: 0%;
+  }
+  
+}
 
 .image-container {
   height: 20vh;
