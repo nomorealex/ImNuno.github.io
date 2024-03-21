@@ -266,41 +266,6 @@ h3 {
   padding-top: 15vh;
 }
 
-@media (max-height: 800px) {
-  #topicwd{
-    translate: 0%;
-  }
-  
-  #topicvcs{
-    translate: 0%;
-  }
-  
-  #topicsd{
-    translate: 0%;
-  }
-  
-  #topicrd{
-    translate: 0%;
-  }
-  
-  #topicba{
-    translate: 0%;
-  }
-  
-  #topictf{
-    translate: 0%;
-  }
-  
-  #topicwm{
-    translate: 0%;
-  }
-  
-  #topic3m{
-    translate: 0%;
-  }
-  
-}
-
 .image-container {
   height: 20vh;
 }
