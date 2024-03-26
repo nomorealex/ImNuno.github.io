@@ -96,6 +96,11 @@ h3 {
   h3 {
     font-size: 50px;
   }
+
+  .imgproj{
+    max-width: 500px;
+    max-height:  300px;
+  }
 }
 
 @media (width <= 500px) {
@@ -109,6 +114,15 @@ h3 {
 
   h3 {
     font-size: 25px;
+  }
+
+  .imgproj{
+    max-width: 350px;
+    max-height:  230px;
+  }
+
+  #blendervideo{
+    max-width: 350px;
   }
 }
 
